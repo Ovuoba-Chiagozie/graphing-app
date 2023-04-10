@@ -255,26 +255,26 @@ let linedropdown = (index) => {
    let formdropdown = document.querySelectorAll('.form')
    let iconbtn1 = document.querySelectorAll('.iconbtn1')
 
-   iconbtn.forEach ((icon,index) => {
+   iconbtn1.forEach ((icon,index) => {
   
      icon.addEventListener('click', function() {
   
        formdropdown[index].style.cssText += 'max-height:100em;'
        icon.style.cssText += 'display:none'
-       iconbtn1[index].style.cssText += 'display:inline-block'
+       iconbtn[index].style.cssText += 'display:inline-block'
        inputbtn(tabindex,index)
     
      })
 
    })
 
-   iconbtn1.forEach((icon,index) => {
+   iconbtn.forEach((icon,index) => {
 
      icon.addEventListener('click',function() {
 
        formdropdown[index].style.cssText += 'transition: max-height 0.3s; max-height:0'
        icon.style.cssText += 'display:none'
-       iconbtn[index].style.cssText += 'display:inline-block'
+       iconbtn1[index].style.cssText += 'display:inline-block'
 
      })
 
