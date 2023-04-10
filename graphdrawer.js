@@ -205,9 +205,9 @@ let displayline = (index) => {
    let info = `
    <div class="ct">
 
-    <img src="./assets/expand_more.svg"  class="iconbtn pl" alt="" style="display:none">
+    <img src="./expand_more.svg"  class="iconbtn pl" alt="" style="display:none">
 
-   <img src="./assets/chevron_right.svg" class="iconbtn1 pl" alt="" >
+   <img src="./chevron_right.svg" class="iconbtn1 pl" alt="" >
 
    <span class="line">Line ${no}</span>
 
