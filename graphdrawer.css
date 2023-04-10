@@ -27,15 +27,6 @@ p {
   color: var(--grey-font);
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 200,
-  'GRAD' 0,
-  'opsz' 48;
- 
-}
-
 /* utility classes */
 
 .create_new_graphsheet_iconbtn {
@@ -305,6 +296,34 @@ border-radius: 4px;
     border-radius: 3px;
     text-align: center;
     display: inline-block;
+}
+
+.expand {
+
+  width: 24px;
+  height: 24px;
+
+}
+
+.returndrop {
+
+  width: 24px;
+  height: 24px;
+
+}
+
+.iconbtn {
+
+  width: 24px;
+  height: 24px;
+
+}
+
+.iconbtn1 {
+
+  width: 24px;
+  height: 24px;
+
 }
 
 /* tabs */
