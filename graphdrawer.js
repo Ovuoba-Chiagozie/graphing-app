@@ -31,9 +31,9 @@ let testbtn = ()=> {
 
    <div class="ct bg">
 
-   <span class="material-symbols-outlined returndrop pl" style="display:none">expand_more</span>
+    <img src="./expand_more.svg"  class="returndrop pl" alt="" style="display:none">
 
-   <span class="material-symbols-outlined expand pl"  style="display: none;">chevron_right</span>
+   <img src="./chevron_right.svg" class="expand pl" alt="" style="display: none;">
 
    <span class="btn1 graph_name" >Graph ${graph_counter += 1}</span>
 
@@ -205,9 +205,9 @@ let displayline = (index) => {
    let info = `
    <div class="ct">
 
-   <span class="material-symbols-outlined pl iconbtn" >expand_more</span>
+    <img src="./assets/expand_more.svg"  class="iconbtn pl" alt="" style="display:none">
 
-   <span class="material-symbols-outlined pl iconbtn1"  style="display: none;">chevron_right</span>
+   <img src="./assets/chevron_right.svg" class="iconbtn1 pl" alt="" >
 
    <span class="line">Line ${no}</span>
 
